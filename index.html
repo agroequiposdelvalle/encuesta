@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>John Deere</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="main.css" rel="stylesheet">	
+</head>
+<body>
+	<div class="top-border-wrapper"></div>
+
+    <div class="take-survey-logo">
+        <span class="align-center">
+            <img alt ="logo.png"
+                 src="imagen.png"
+                >
+        </span>
+    </div>
+
+    <h1>Agroequipos del Valle John Deere</h1>
+
+    <div class="take-survey-title">
+    <p>
+        Estamos en la búsqueda permanente de maneras de mejorar la calidad de nuestros productos y servicios. <br> 	
+        Para hacerlo, necesitamos saber qué es lo que usted piensa. Le agradeceríamos mucho que dedicara unos <br>
+        minutos a responder las siguientes preguntas. 
+    </p>
+
+    </div>	
+
+	<form id="quiz" name="quiz">	
+		<p>1.¿Cuál piensas que es la ventaja competitiva de Agroequipos del Valle contra la competencia?</p>
+		<input type="radio" id="mc" name="Pregunta1" value="Precio">Precio<br>
+		<input type="radio" id="mc" name="Pregunta1" value="Financiamiento">Financiamiento<br>
+		<input type="radio" id="mc" name="Pregunta1" value="Calidad">Calidad<br>
+		<input type="radio" id="mc" name="Pregunta1" value="Soporte">Soporte<br>
+
+		<p>2.¿Qué es lo que te interesa comprar en Agroequipos del Valle?</p>
+		<input type="radio" id="mc" name="Pregunta2" value="Calidad">Calidad<br>
+		<input type="radio" id="mc" name="Pregunta2" value="Precio">Precio<br>
+		<input type="radio" id="mc" name="Pregunta2" value="Plazo">Plazo<br>
+
+		<p>3.¿Cuál es la mejor opción para que usted tome una decisión de compra?</p>
+		<input type="radio" id="mc" name="Pregunta3" value="Calidad">Calidad<br>
+		<input type="radio" id="mc" name="Pregunta3" value="Precio">Precio<br>
+		<input type="radio" id="mc" name="Pregunta3" value="Plazo">Plazo<br>
+		<input type="radio" id="mc" name="Pregunta3" value="Soporte">Soporte<br>
+
+		<p>4. Le interesaría o le sería atractivo que en la compra de un equipo se le regale algún implemento?</p>
+		<input type="radio" id="mc" name="Pregunta4" value="Sí">Sí<br>
+		<input type="radio" id="mc" name="Pregunta4" value="No">No<br>
+
+		<p>5.¿Compraría usted algún implemento sin apoyo del gobierno, pero con alguna estrategia de la casa comercial?</p>
+		<input type="radio" id="mc" name="Pregunta5" value="Sí">Sí<br>
+		<input type="radio" id="mc" name="Pregunta5" value="No">No<br>
+		<br>
+
+		<center><input id="button" type="button" value="Enviar" onclick="location.href='http://www.agroequipos.com.mx/'"></center>
+		
+	</form>	
+	<script>
+		function check()
+        {
+	    alert("Muchas Gracias por su Participación!");	    
+        }
+	</script>
+</body>
+</html>
